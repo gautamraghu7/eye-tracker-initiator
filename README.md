@@ -4,6 +4,9 @@ A blink-controlled gripper. Eye blinks are detected by a webcam and translated i
 
 Built at BioHacks 2026 for the Wearable Devices and Quality of Life track.
 
+## Devpost Link
+https://devpost.com/software/purple-defenders?ref_content=my-projects-tab&ref_feature=my_projects
+
 ## How it works
 
 A webcam tracks the user's eyes and counts deliberate blinks within a set time window. The count is sent over Bluetooth to an ESP32, which drives a servo that tightens or loosens a 3D-printed, glove-style gripper.
